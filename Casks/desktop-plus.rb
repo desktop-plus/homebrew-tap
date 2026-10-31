@@ -1,9 +1,9 @@
 cask "desktop-plus" do
   arch arm: "arm64", intel: "x64"
 
-  version "3.6.8.1"
-  sha256 arm:   "4ed477d6d734c4a3e6fb3f899568222d0f8591da89fe43d04887511cfecddbc9",
-         intel: "e66e70140960e25373a7c50c92dd0707dd324f304f9f03f74ab84a939bc4d14d"
+  version "3.6.10.0"
+  sha256 arm:   "67c974e9b1966067d6a34241d9b459171f061154fc7ec855b65cca2ef6044f3e",
+         intel: "111f985096a56f5efbfde919cc58a49ad8197e69a0a3b84f6624fcfc37fe6f6a"
 
   url "https://github.com/desktop-plus/desktop-plus/releases/download/v#{version}/DesktopPlus-v#{version}-macOS-#{arch}.zip"
   name "Desktop Plus"
